@@ -1,0 +1,28 @@
+{
+  "name": "uffe-store",
+  "version": "1.0.0",
+  "description": "storage ledger",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/gulp/bin/gulp.js test"
+  },
+  "keywords": [
+    "storage",
+    "ledger",
+    "graphql"
+  ],
+  "author": "uffe hellum",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "pg": "^7.4.3",
+    "pg-promise": "^8.4.4"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "co-pg": "^2.0.2",
+    "eslint": "^5.0.0",
+    "gulp": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
